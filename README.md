@@ -8,7 +8,7 @@ This repository contains the examples for the numpy tutorial
 ## Downloading the tutorial materials
 If you have git installed, you can get the material in this tutorial by cloning this repo:
 
-git clone 
+git clone https://github.com/shashankvishwakarma/python-numpy.git
 
 ## Content
 - numpy Operation
