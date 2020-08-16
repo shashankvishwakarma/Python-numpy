@@ -15,9 +15,8 @@ print("data type: ", a.dtype)
 print("size: ", a.size)
 print("shape: ", a.shape)
 
-
-a = a.reshape(2,3)
-print("after reshape: ",a)
+a = a.reshape(2, 3)
+print("after reshape: ", a)
 print("shape: ", a.shape)
 
 a = a.ravel()
@@ -62,13 +61,3 @@ a = np.zeros((4, 4))
 b = np.ones((4, 4))
 print(a)
 print(b)
-
-# Vertical Stack Equivalents (Row wise)
-print('Vertical Stack Equivalents (Row wise) concatenate \n', np.concatenate([a, b], axis=0))
-print('Vertical Stack Equivalents (Row wise) vstack \n', np.vstack([a, b]))
-print('Vertical Stack Equivalents (Row wise) r_ \n', np.r_[a, b])
-
-# Horizontal Stack Equivalents (column wise)
-print('Horizontal Stack Equivalents (Coliumn wise) concatenate \n ', np.concatenate([a, b], axis=1))
-print('Horizontal Stack Equivalents (Coliumn wise) hstack \n ', np.hstack([a, b]))
-print('Horizontal Stack Equivalents (Coliumn wise) c_ \n ', np.c_[a, b])
